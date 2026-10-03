@@ -1,0 +1,12 @@
+num = 407
+
+result = 0
+digit = len(str(num))
+for i in str(num):
+    result += int(i) ** digit
+    
+if num == result:
+    print("Amstrong")
+else:
+    print("Not")
+    
