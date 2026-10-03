@@ -1,0 +1,7 @@
+
+low = 1
+high = 500
+
+for i in range (low,high+1):
+    if str(i) == str(i)[::-1]:
+        print(i)
